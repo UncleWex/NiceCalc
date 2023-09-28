@@ -1,7 +1,8 @@
 body {
     display: flex;
     justify-content: center;
-    padding: 20px 100px;
+    padding: 12px 100px;
+    margin: 0px;
 }
 
 .calc-container {
@@ -9,6 +10,12 @@ body {
     flex-direction: column;
     flex: auto;
     gap: 20px;
+}
+
+.display-container {
+    display: flex;
+    flex: auto;
+    padding: 20px; 
 }
 
 .calc-button-container {
@@ -21,7 +28,9 @@ body {
 .calc-button {
     display: flex;
     flex: auto;
-    text-align: center;
+    justify-content: center;
+    width: 140px;
+    height: auto;
     padding: 12px 20px;
 }
 

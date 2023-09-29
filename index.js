@@ -15,6 +15,7 @@ digitButtons.forEach(button => button.addEventListener("click", () => {
         newOperationFlag = false;
         resultFlag = false;
     }
+    if (button.textContent === "0" && display.textContent.charAt(0) === "0") return;
     display.textContent += button.textContent;
 }));
 
